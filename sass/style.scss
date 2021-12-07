@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lavender;
+    font-family: sans-serif;
+    header{
+        margin: 2rem auto;
+        width: 1150px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .box{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            cursor: pointer;
+        }
+        .box ul{
+            display: flex;
+            li{
+                list-style: none;
+                margin: 10px;
+                border: 1px solid black;
+                border-radius: 5px;
+                width: 100px;
+                height: 30px;
+                text-align: center;
+                padding-top: 5px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+
+            li:nth-child(1){
+                background-color: red;
+                a{
+                    color: white;
+                }
+            }
+            
+        }
+    }
+    section{
+        margin: 0 auto;
+        width: 1200px;
+        height: 850px;
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+        .container{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            .box{
+                width: 350px;
+                height: 395px;
+                background-color: #fff;
+                margin-bottom: 2.5rem;
+                &:nth-child(6) p:nth-child(3){
+                    padding-top: 7px;
+                }
+                .block{
+                    padding: 1rem;
+                    p:first-child{
+                        border-left: 2.5px solid red;
+                        color: #9e9e9e;
+                    }
+                    p:nth-child(3){
+                        color: #9e9e9e;
+                        img{
+                            margin: 2px 0 0 20px;
+                            cursor: pointer;
+                        }
+
+                    }
+                    h3{
+                        margin: 10px 0;
+                        font-size: 18px;
+                        font-weight: 550;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        margin: 3rem auto;
+        .wrapper{
+            width: 200px;
+            height: 50px;
+            // border: 1px solid red;
+            margin: 0 auto;
+            button{
+                background-color: red;
+                width: 200px;
+                height: 30px;
+                color: #fff;
+                border-radius: 5px;
+                cursor: pointer;
+                border: none;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
